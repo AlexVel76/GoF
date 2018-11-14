@@ -1,13 +1,13 @@
 package com.test.gof.creational.abstract_factory.pay_product;
 
-public class CTCPayPalServiceImpl implements PayPalService {
+public class CompanyTwoPayPalServiceImpl implements PayPalService{
     @Override
     public String getConnectionToPayServer() {
-        return "CTC Pay Pal connection";
+        return "CompanyTwo Pay Pal connection";
     }
 
     @Override
     public String charge() {
-        return "charge CTC from Pay Pal";
+        return "CompanyTwo Pay Pal charging";
     }
 }

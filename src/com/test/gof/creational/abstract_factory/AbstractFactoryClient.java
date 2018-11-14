@@ -1,12 +1,9 @@
 package com.test.gof.creational.abstract_factory;
 
-import com.test.gof.creational.abstract_factory.pay_for_site_factory.CTCPaySystemFactory;
-import com.test.gof.creational.abstract_factory.pay_product.CreditCardService;
-
 public class AbstractFactoryClient {
     public static void main(String[] args) {
-        callTestMethods("marks");
-        callTestMethods("ctc");
+        callTestMethods("CompanyTwo");
+        callTestMethods("CompanyOne");
     }
 
     private static void callTestMethods(final String site) {

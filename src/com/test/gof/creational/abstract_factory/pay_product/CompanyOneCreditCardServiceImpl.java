@@ -1,13 +1,14 @@
 package com.test.gof.creational.abstract_factory.pay_product;
 
-public class MarksCreditCardServiceImpl implements CreditCardService {
+public class CompanyOneCreditCardServiceImpl implements CreditCardService {
+
     @Override
     public String getConnectionToPayServer() {
-        return "Marks connection to Credit Card";
+        return "CompanyOne connection to Credit Card";
     }
 
     @Override
     public String charge() {
-        return "Marks credit card charging";
+        return "CompanyOne credit card charging";
     }
 }
