@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac33af2-99d0-46f8-9a4d-c01fb863d53f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apiguardian_api_1_0_0_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/PayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/PayFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CTCPaySystemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyOnePaySystemFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/MarksPaySystemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyTwoPaySystemFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CTCCreditCardServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CTCCreditCardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOneCreditCardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CTCPayPalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOnePayPalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/MarksCreditCardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/MarksPayPalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoPayPalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/AbstractFactoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/AbstractFactoryClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/PayFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/PayFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_for_site_factory/CTCPaySystemFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_for_site_factory/MarksPaySystemFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CTCCreditCardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CTCPayPalServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/MarksCreditCardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/MarksPayPalServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,23 +66,57 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1207037795">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="673" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="673" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+              <folding>
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/PayFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="141">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,90 +125,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoPayPalServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="225">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CreditCardService.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/PayPalService.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOneCreditCardServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-              </folding>
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOnePayPalServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyOnePaySystemFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyTwoPaySystemFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,7 +205,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -214,6 +243,15 @@
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CTCPaySystemFactory.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/PayFactory.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java" />
       </list>
     </option>
   </component>
@@ -228,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -268,27 +307,79 @@
               <item name="test" type="1f31426a:PackageElementNode" />
               <item name="gof" type="1f31426a:PackageElementNode" />
               <item name="creational" type="1f31426a:PackageElementNode" />
-              <item name="abstract_factory" type="1f31426a:PackageElementNode" />
+              <item name="builder" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
               <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-              <item name="abstract_factory" type="1f31426a:PackageElementNode" />
-              <item name="pay_for_site_factory" type="1f31426a:PackageElementNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-              <item name="abstract_factory" type="1f31426a:PackageElementNode" />
-              <item name="pay_product" type="1f31426a:PackageElementNode" />
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="abstract_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="abstract_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pay_for_site_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -372,79 +463,32 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="abstract_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="GoF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gof" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="abstract_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pay_for_site_factory" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542225912315" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545171778752" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/opentest4j-1.1.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.test.gof.creational.builder" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test.gof.creational.builder" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -458,7 +502,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.OrderBuildDirectorTest.construct">
     <configuration name="AbstractFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.gof.creational.abstract_factory.AbstractFactoryClient" />
       <module name="GoF" />
@@ -482,12 +526,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderBuildDirectorTest.construct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.gof.creational.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.gof.creational.builder" />
+      <option name="MAIN_CLASS_NAME" value="com.test.gof.creational.builder.OrderBuildDirectorTest" />
+      <option name="METHOD_NAME" value="construct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AbstractFactoryClient" />
+      <item itemvalue="JUnit.OrderBuildDirectorTest.construct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderBuildDirectorTest.construct" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AbstractFactoryClient" />
       </list>
@@ -506,6 +568,20 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="OrderBuildDirectorTest_construct - 2018.12.19 at 00h 10m 47s.xml">
+      <configuration name="OrderBuildDirectorTest.construct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBuildDirectorTest_construct - 2018.12.19 at 00h 11m 53s.xml">
+      <configuration name="OrderBuildDirectorTest.construct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBuildDirectorTest_construct - 2018.12.19 at 00h 12m 46s.xml">
+      <configuration name="OrderBuildDirectorTest.construct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBuildDirectorTest_construct - 2018.12.19 at 00h 12m 59s.xml">
+      <configuration name="OrderBuildDirectorTest.construct" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -517,8 +593,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26028278" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26349613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,7 +604,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,7 +612,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -563,6 +640,18 @@
           <line>6</line>
           <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -599,6 +688,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoPayPalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CreditCardService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -613,38 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoPayPalServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOnePayPalServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOneCreditCardServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -656,21 +734,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOnePayPalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyOnePaySystemFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyTwoPaySystemFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -690,5 +773,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-jupiter-api-5.3.2.jar!/org/junit/jupiter/api/AssertArrayEquals.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="149" column="24" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-jupiter-api-5.3.2.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="249" column="33" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GoF</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>apiguardian-api-1.0.0-javadoc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
