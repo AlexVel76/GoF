@@ -1,18 +1,18 @@
-package com.test.gof.creational.builder;
+package com.test.gof.creational.common;
 
 import java.util.List;
 
 public abstract class AbstractOrder {
     private List<String> entities;
     private String user;
-    private String payment;
+    private PaymentSystem paymentSystem;
 
-    public String getPayment() {
-        return payment;
+    public PaymentSystem getPayment() {
+        return paymentSystem;
     }
 
-    public void setPayment(String payment) {
-        this.payment = payment;
+    public void setPayment(PaymentSystem paymentSystem) {
+        this.paymentSystem = paymentSystem;
     }
 
     public List<String> getEntities() {

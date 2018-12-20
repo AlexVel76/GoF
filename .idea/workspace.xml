@@ -2,28 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac33af2-99d0-46f8-9a4d-c01fb863d53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apiguardian_api_1_0_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/common/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/common/OrderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/common/PayPalPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/common/PaymentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/FactoryMethodParameterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/OrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/AbstractOrderFactoryPolymorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CartFactoryPolym.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/FactoryMethodPolymorphicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/OrderFactoryPolym.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/AbstractFactoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/AbstractFactoryClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/PayFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/PayFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_for_site_factory/CTCPaySystemFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_for_site_factory/MarksPaySystemFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CTCCreditCardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CTCPayPalServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/MarksCreditCardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/MarksPayPalServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/common/AbstractOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/common/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/common/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/BuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,24 +101,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="OrderBuildDirector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+            <state relative-caret-position="170">
+              <caret line="15" column="94" lean-forward="true" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditCardPayment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/CreditCardPayment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java">
+      <file leaf-file-name="OrderFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/OrderFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="340">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,78 +135,131 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="CartBuilderImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding>
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="BuilderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/BuilderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java">
+      <file leaf-file-name="OrderBuilderImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            <state relative-caret-position="68">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java">
+      <file leaf-file-name="FactoryMethodParameterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/FactoryMethodParameterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java">
+      <file leaf-file-name="AbstractOrderFactoryPolymorphic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/AbstractOrderFactoryPolymorphic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="102">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderFactoryPolym.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/OrderFactoryPolym.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartFactoryPolym.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CartFactoryPolym.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryMethodPolymorphicTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/FactoryMethodPolymorphicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/AbstractOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/PaymentSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractFactoryClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -205,9 +269,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -243,15 +308,31 @@
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CTCPaySystemFactory.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/PayFactory.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java" />
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java" />
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java" />
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/common/OrderType.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/builderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/OrderFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/common/PaymentSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/common/AbstractOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/common/CreditCardPayment.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/common/PayPalSystem.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/common/PayPalPayment.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/builder/BuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/OrderFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/FactoryMethodParameterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/OrderFactoryPolymorphic.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/AbstractOrderFactoryPolymorphic.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/OrderFactoryPolym.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CartFactoryPolym.java" />
+        <option value="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/FactoryMethodPolymorphicTest.java" />
       </list>
     </option>
   </component>
@@ -262,63 +343,113 @@
     <option name="height" value="820" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages Scope="false" />
+      <showMembers Scope="false" />
+      <hideEmptyPackages Scope="false" />
+      <sortByType Scope="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Production">
           <expand>
             <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
             </path>
             <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-              <item name="builder" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
             </path>
           </expand>
           <select />
         </subPane>
-      </pane>
-      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="gof" type="cbb8eebc:String" user="gof" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="gof" type="cbb8eebc:String" user="gof" />
+              <item name="creational" type="cbb8eebc:String" user="creational" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="gof" type="cbb8eebc:String" user="gof" />
+              <item name="creational" type="cbb8eebc:String" user="creational" />
+              <item name="builder" type="cbb8eebc:String" user="builder" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="gof" type="cbb8eebc:String" user="gof" />
+              <item name="creational" type="cbb8eebc:String" user="creational" />
+              <item name="common" type="cbb8eebc:String" user="common" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="gof" type="cbb8eebc:String" user="gof" />
+              <item name="creational" type="cbb8eebc:String" user="creational" />
+              <item name="factory_method_parameter" type="cbb8eebc:String" user="factory_method_parameter" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GoF" type="cbb8eebc:String" user="GoF" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="com" type="cbb8eebc:String" user="com" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="gof" type="cbb8eebc:String" user="gof" />
+              <item name="creational" type="cbb8eebc:String" user="creational" />
+              <item name="factory_method_polymorphic" type="cbb8eebc:String" user="factory_method_polymorphic" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
@@ -385,6 +516,33 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GoF" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GoF" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="GoF" type="1abcf292:AndroidViewProjectNode" />
+              <item name="GoF" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -396,68 +554,6 @@
               <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoF" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstract_factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstract_factory" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_for_site_factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstract_factory" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_product" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -474,19 +570,24 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/opentest4j-1.1.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.test.gof.creational.factory_method_parameter" />
       <recent name="com.test.gof.creational.builder" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.gof.creational.factory_method_polymorphic" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test.gof.creational.common" />
       <recent name="com.test.gof.creational.builder" />
     </key>
   </component>
@@ -502,7 +603,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderBuildDirectorTest.construct">
+  <component name="RunManager" selected="JUnit.FactoryMethodPolymorphicTest.getAbstractOrder">
     <configuration name="AbstractFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.gof.creational.abstract_factory.AbstractFactoryClient" />
       <module name="GoF" />
@@ -512,9 +613,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.test.gof.Main" />
@@ -522,34 +620,88 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="OrderBuildDirectorTest.construct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuilderTest.construct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.gof.creational.builder.*" />
+          <option name="PATTERN" value="com.test.gof.creational.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test.gof.creational.builder" />
-      <option name="MAIN_CLASS_NAME" value="com.test.gof.creational.builder.OrderBuildDirectorTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.gof.creational.builder.BuilderTest" />
       <option name="METHOD_NAME" value="construct" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FactoryMethodParameterTest.getAbstractOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.gof.creational.factory_method_parameter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test.gof.creational.factory_method_parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.test.gof.creational.factory_method_parameter.FactoryMethodParameterTest" />
+      <option name="METHOD_NAME" value="getAbstractOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FactoryMethodPolymorphicTest.getAbstractOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.gof.creational.factory_method_polymorphic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test.gof.creational.factory_method_polymorphic" />
+      <option name="MAIN_CLASS_NAME" value="com.test.gof.creational.factory_method_polymorphic.FactoryMethodPolymorphicTest" />
+      <option name="METHOD_NAME" value="getAbstractOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AbstractFactoryClient" />
-      <item itemvalue="JUnit.OrderBuildDirectorTest.construct" />
+      <item itemvalue="JUnit.BuilderTest.construct" />
+      <item itemvalue="JUnit.FactoryMethodParameterTest.getAbstractOrder" />
+      <item itemvalue="JUnit.FactoryMethodPolymorphicTest.getAbstractOrder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderBuildDirectorTest.construct" />
+        <item itemvalue="JUnit.FactoryMethodPolymorphicTest.getAbstractOrder" />
+        <item itemvalue="JUnit.FactoryMethodParameterTest.getAbstractOrder" />
+        <item itemvalue="JUnit.BuilderTest.construct" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AbstractFactoryClient" />
       </list>
@@ -581,6 +733,24 @@
     <history-entry file="OrderBuildDirectorTest_construct - 2018.12.19 at 00h 12m 59s.xml">
       <configuration name="OrderBuildDirectorTest.construct" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderFactoryTest_getAbstractOrder - 2018.12.19 at 11h 33m 58s.xml">
+      <configuration name="OrderFactoryTest.getAbstractOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuilderTest_construct - 2018.12.20 at 12h 25m 15s.xml">
+      <configuration name="BuilderTest.construct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuilderTest_construct - 2018.12.20 at 12h 25m 51s.xml">
+      <configuration name="BuilderTest.construct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuilderTest_construct - 2018.12.20 at 12h 26m 07s.xml">
+      <configuration name="BuilderTest.construct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuilderTest_construct - 2018.12.20 at 12h 26m 22s.xml">
+      <configuration name="BuilderTest.construct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FactoryMethodParameterTest_getAbstractOrder - 2018.12.20 at 12h 28m 40s.xml">
+      <configuration name="FactoryMethodParameterTest.getAbstractOrder" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,36 +762,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26349613" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32974428" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
+      <window_info id="JRebel" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32974428" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="JRebel Executor" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.195629" />
+      <window_info anchor="bottom" id="JRebel Console" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32974428" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32974428" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39973083" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -643,13 +849,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java</url>
-          <line>27</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/com/test/gof/creational/builder/BuilderTest.java</url>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -657,44 +863,68 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Launcher.class">
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="170">
+          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        <state relative-caret-position="442">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/time/Clock.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2700">
-          <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoF.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/AbstractOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/BuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Launcher.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/time/Clock.java" />
     <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -773,91 +1003,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/AbstractOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/Main.java" />
     <entry file="jar://$PROJECT_DIR$/lib/junit-jupiter-api-5.3.2.jar!/org/junit/jupiter/api/AssertArrayEquals.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -872,13 +1018,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirectorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/OrderType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/PaymentSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/AbstractOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/CreditCardPayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="94" lean-forward="true" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/common/PayPalPayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/builder/BuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/OrderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CreditCardPayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/FactoryMethodParameterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/OrderFactoryPolym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CartFactoryPolym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/AbstractOrderFactoryPolymorphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/FactoryMethodPolymorphicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -955,6 +1277,22 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Custom Type System Files</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Custom Type System Files" />
+            <scope name="All Type System Files" />
+          </order>
         </settings>
       </state>
     </states>

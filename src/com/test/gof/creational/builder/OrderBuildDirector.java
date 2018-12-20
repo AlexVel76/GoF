@@ -2,6 +2,9 @@ package com.test.gof.creational.builder;
 
 import java.util.List;
 
+import com.test.gof.creational.common.AbstractOrder;
+import com.test.gof.creational.common.PaymentSystem;
+
 public class OrderBuildDirector {
     private OrderBuilder orderBuilder;
 
@@ -9,7 +12,7 @@ public class OrderBuildDirector {
         this.orderBuilder = orderBuilder;
     }
 
-    public AbstractOrder construct(List<String> entries, String user, String payment){
+    public AbstractOrder construct(List<String> entries, String user, PaymentSystem payment){
         return orderBuilder.createEntries(entries).createUser(user).createPayment(payment).build();
     }
 }

@@ -7,12 +7,18 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class OrderBuildDirectorTest {
+import com.test.gof.creational.common.AbstractOrder;
+import com.test.gof.creational.common.Cart;
+import com.test.gof.creational.common.CreditCardPayment;
+import com.test.gof.creational.common.Order;
+import com.test.gof.creational.common.PayPalPayment;
 
-    public static final String CREDIT_CARD = "CreditCard";
+class BuilderTest {
+
+    public static final String CREDIT_CARD = "credit card";
     public static final String USER_2 = "user2";
     public static final String USER_1 = "user1";
-    public static final String PAYPAL = "paypal";
+    public static final String PAYPAL = "PayPal";
 
     @Test
     void construct() {
@@ -21,18 +27,18 @@ class OrderBuildDirectorTest {
         List<String> entities = new ArrayList<>();
         entities.add("prod1");
         entities.add("prod2");
-        AbstractOrder abstractOrder = orderBuildDirector.construct(entities, USER_1, PAYPAL);
+        AbstractOrder abstractOrder = orderBuildDirector.construct(entities, USER_1, new PayPalPayment());
 
         assertTrue(abstractOrder instanceof Cart);
         assertEquals(USER_1,  abstractOrder.getUser());
-        assertEquals(PAYPAL,  abstractOrder.getPayment());
+        assertEquals(PAYPAL,  abstractOrder.getPayment().getType());
         assertArrayEquals(new String[]{"prod1", "prod2"}, abstractOrder.getEntities().toArray());
 
         orderBuildDirector = new OrderBuildDirector(new OrderBuilderImpl());
-        abstractOrder = orderBuildDirector.construct(entities, USER_2, CREDIT_CARD);
+        abstractOrder = orderBuildDirector.construct(entities, USER_2, new CreditCardPayment());
         assertTrue(abstractOrder instanceof Order);
         assertEquals(USER_2,  abstractOrder.getUser());
-        assertEquals(CREDIT_CARD,  abstractOrder.getPayment());
+        assertEquals(CREDIT_CARD,  abstractOrder.getPayment().getType());
         assertArrayEquals(new String[]{"prod1", "prod2"}, abstractOrder.getEntities().toArray());
 
     }
