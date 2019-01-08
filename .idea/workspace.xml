@@ -2,68 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac33af2-99d0-46f8-9a4d-c01fb863d53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_1/AbstractOrderFactoryPolymorphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/prototype/HardCreatedField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/prototype/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazyInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/AbstractFactoryClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/PayFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyOnePaySystemFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyTwoPaySystemFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CompanyOneCreditCardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CompanyOnePayPalServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoPayPalServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/CreditCardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/abstract_factory/pay_product/PayPalService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/builder/BuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/builder/CartBuilderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/builder/OrderBuildDirector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/builder/OrderBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/builder/OrderBuilderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/common/AbstractOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/common/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/common/CreditCardPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/common/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/common/OrderType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/common/PayPalPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/common/PaymentSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/factory_method_parameter/FactoryMethodParameterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/factory_method_parameter/OrderFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/factory_method_parameter/OrderFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/factory_method_polymorphic/AbstractOrderFactoryPolymorphic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/factory_method_polymorphic/CartFactoryPolym.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/factory_method_polymorphic/FactoryMethodPolymorphicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoF/com/test/gof/creational/factory_method_polymorphic/OrderFactoryPolym.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/AbstractFactoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/PayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/PayFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyOnePaySystemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_for_site_factory/CompanyOnePaySystemFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/CompanyTwoPaySystemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_for_site_factory/CompanyTwoPaySystemFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOneCreditCardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_product/CompanyOneCreditCardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyOnePayPalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_product/CompanyOnePayPalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_product/CompanyTwoCreditCardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CompanyTwoPayPalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_product/CompanyTwoPayPalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CreditCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_product/CreditCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/PayPalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/abstract_factory/pay_product/PayPalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/builder/BuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/CartBuilderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/builder/CartBuilderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuildDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/builder/OrderBuildDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/builder/OrderBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/builder/OrderBuilderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/builder/OrderBuilderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/common/AbstractOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/common/AbstractOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/common/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/common/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/common/CreditCardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/common/CreditCardPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/common/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/common/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/common/OrderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/common/OrderType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/common/PayPalPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/common/PayPalPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/common/PaymentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/common/PaymentSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/FactoryMethodParameterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/factory_method_parameter/FactoryMethodParameterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_parameter/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/factory_method_parameter/OrderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/AbstractOrderFactoryPolymorphic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CartFactoryPolym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_1/CartFactoryPolym.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/FactoryMethodPolymorphicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_1/FactoryMethodPolymorphicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/OrderFactoryPolym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_1/OrderFactoryPolym.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,20 +88,8 @@
       <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="340">
               <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-              <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -167,26 +97,51 @@
       <file leaf-file-name="HardCreatedField.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/HardCreatedField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="374">
               <caret line="30" column="14" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrototypeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrototypeTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java">
+      <file leaf-file-name="CreditCardServiceEager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditCardServiceLazyInnerClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazyInnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreditCardServiceLazySynchronized.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="123" selection-start-line="3" selection-start-column="123" selection-end-line="3" selection-end-column="123" />
             </state>
           </provider>
         </entry>
@@ -195,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_1/FactoryMethodPolymorphicTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -230,10 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/AbstractFactotyClient.java" />
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CreditCardServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/PayPalServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CreditCardService.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/PayPalService.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_product/CTCPayPalServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/test/gof/creational/abstract_factory/pay_for_site_factory/MarksPaySystemFactory.java" />
@@ -279,6 +230,12 @@
         <option value="$PROJECT_DIR$/src/com/gof/creational/prototype/HardCreatedField.java" />
         <option value="$PROJECT_DIR$/src/com/gof/creational/prototype/Order.java" />
         <option value="$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardService.java" />
+        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy/CreditCardServiceLazy.java" />
+        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazy.java" />
+        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazyInnerClass.java" />
+        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java" />
+        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java" />
       </list>
     </option>
   </component>
@@ -298,6 +255,75 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="gof" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="gof" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="gof" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
+              <item name="singleton_eager" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="gof" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
+              <item name="singleton_lazy_innerClass" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="GoF" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="gof" type="1f31426a:PackageElementNode" />
+              <item name="creational" type="1f31426a:PackageElementNode" />
+              <item name="singleton_lazy_synchronized" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -393,59 +419,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-              <item name="common" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-              <item name="factory_method_polymorphic_1" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="GoF" type="58d84e3e:PackageViewProjectNode" />
-              <item name="GoF" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="gof" type="1f31426a:PackageElementNode" />
-              <item name="creational" type="1f31426a:PackageElementNode" />
-              <item name="prototype" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -457,22 +430,6 @@
               <item name="GoF" type="1abcf292:AndroidViewProjectNode" />
               <item name="GoF" type="e9137016:NonAndroidModuleNode" />
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -490,7 +447,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -499,20 +456,22 @@
       <recent name="com.test.gof.creational.factory_method_parameter" />
       <recent name="com.test.gof.creational.builder" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gof.creational.prototype" />
+      <recent name="com.test.gof.creational.common" />
+      <recent name="com.test.gof.creational.builder" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gof.creational.singleton_lazy_synchronized" />
+      <recent name="com.gof.creational.singleton_lazy" />
       <recent name="com.test.gof.creational.factory_method_polymorphic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\_projects\_my_project\GoF\src\com\gof\creational\factory_method_polymorphic_2" />
       <recent name="F:\_projects\_my_project\GoF\src\com\test\gof\creational" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gof.creational.prototype" />
-      <recent name="com.test.gof.creational.common" />
-      <recent name="com.test.gof.creational.builder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -658,15 +617,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BuilderTest_construct - 2018.12.20 at 12h 25m 51s.xml">
-      <configuration name="BuilderTest.construct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BuilderTest_construct - 2018.12.20 at 12h 26m 07s.xml">
-      <configuration name="BuilderTest.construct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BuilderTest_construct - 2018.12.20 at 12h 26m 22s.xml">
-      <configuration name="BuilderTest.construct" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FactoryMethodParameterTest_getAbstractOrder - 2018.12.20 at 12h 28m 40s.xml">
       <configuration name="FactoryMethodParameterTest.getAbstractOrder" configurationId="JUnit" />
     </history-entry>
@@ -688,6 +638,15 @@
     <history-entry file="PrototypeTest_prototypeTest - 2018.12.20 at 17h 08m 57s.xml">
       <configuration name="PrototypeTest.prototypeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrototypeTest_prototypeTest - 2018.12.20 at 17h 17m 11s.xml">
+      <configuration name="PrototypeTest.prototypeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrototypeTest_prototypeTest - 2018.12.20 at 17h 17m 27s.xml">
+      <configuration name="PrototypeTest.prototypeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrototypeTest_prototypeTest - 2018.12.20 at 17h 17m 33s.xml">
+      <configuration name="PrototypeTest.prototypeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -704,7 +663,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -712,12 +670,12 @@
       <window_info anchor="bottom" id="JRebel Console" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32974428" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2585288" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26119402" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -726,11 +684,12 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39973083" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32900432" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
     </layout>
   </component>
@@ -765,6 +724,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -852,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,11 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,13 +847,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/common/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -941,10 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,10 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,10 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,10 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,19 +946,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CreditCardPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/factory_method_polymorphic/CreditCardPayment.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_parameter/FactoryMethodParameterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1050,39 +971,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/gof/creational/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_2/OrderFactoryPolym.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_2/CartFactoryPolym.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_2/FactoryMethodPolymorphicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="60" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_2/AbstractOrderFactoryPolymorphic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_2/FactoryMethodPolymorphicTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_2/AbstractOrderFactoryPolymorphic.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_1/OrderFactoryPolym.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,50 +1003,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/HardCreatedField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="374">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="340">
           <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/factory_method_polymorphic_1/FactoryMethodPolymorphicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="561">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazyInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="123" selection-start-line="3" selection-start-column="123" selection-end-line="3" selection-end-column="123" />
         </state>
       </provider>
     </entry>
