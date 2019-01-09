@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac33af2-99d0-46f8-9a4d-c01fb863d53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazyInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java" afterDir="false" />
+    <list default="true" id="9ac33af2-99d0-46f8-9a4d-c01fb863d53f" name="Default Changelist" comment="Add singletons variations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,8 +104,8 @@
       <file leaf-file-name="PrototypeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreditCardServiceEager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreditCardServiceEager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#306#307#0" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
@@ -137,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreditCardServiceLazySynchronized.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreditCardServiceLazySynchronized.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="123" selection-start-line="3" selection-start-column="123" selection-end-line="3" selection-end-column="123" />
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -181,6 +179,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -234,10 +233,16 @@
         <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy/CreditCardServiceLazy.java" />
         <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazy.java" />
         <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_innerClass/CreditCardServiceLazyInnerClass.java" />
-        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java" />
         <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java" />
+        <option value="$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -441,15 +446,17 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545171778752" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14795919" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -486,13 +493,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrototypeTest.prototypeTest">
+  <component name="RunManager" selected="JUnit.All in GoF">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.test.gof.Main" />
       <module name="GoF" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="All in GoF" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="BuilderTest.construct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoF" />
@@ -592,6 +615,7 @@
       <item itemvalue="JUnit.FactoryMethodParameterTest.getAbstractOrder" />
       <item itemvalue="JUnit.FactoryMethodPolymorphicTest.getAbstractOrder" />
       <item itemvalue="JUnit.PrototypeTest.prototypeTest" />
+      <item itemvalue="JUnit.All in GoF" />
     </list>
     <recent_temporary>
       <list>
@@ -614,12 +638,17 @@
       <option name="presentableId" value="Default" />
       <updated>1541844654878</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add singletons variations">
+      <created>1546967769935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546967769935</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FactoryMethodParameterTest_getAbstractOrder - 2018.12.20 at 12h 28m 40s.xml">
-      <configuration name="FactoryMethodParameterTest.getAbstractOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FactoryMethodPolymorphicTest_getAbstractOrder - 2018.12.20 at 12h 40m 33s.xml">
       <configuration name="FactoryMethodPolymorphicTest.getAbstractOrder" configurationId="JUnit" />
     </history-entry>
@@ -647,6 +676,9 @@
     <history-entry file="PrototypeTest_prototypeTest - 2018.12.20 at 17h 17m 33s.xml">
       <configuration name="PrototypeTest.prototypeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_GoF - 2019.01.08 at 19h 33m 44s.xml">
+      <configuration name="All in GoF" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,19 +695,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="2" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.17857143" />
       <window_info anchor="bottom" id="JRebel Executor" order="1" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.21969697" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32974428" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26119402" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20842217" />
       <window_info id="JRebel" order="0" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -684,7 +717,6 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39973083" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32900432" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
@@ -693,8 +725,40 @@
       <window_info anchor="bottom" id="Find" order="4" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add singletons variations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add singletons variations" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -869,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/abstract_factory/AbstractFactoryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/common/PaymentSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1022,23 +1079,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/abstract_factory/AbstractFactoryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/prototype/PrototypeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="242">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1053,7 +1106,18 @@
     <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_lazy_synchronized/CreditCardServiceLazySynchronized.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="123" selection-start-line="3" selection-start-column="123" selection-end-line="3" selection-end-column="123" />
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gof/creational/singleton_eager/CreditCardServiceEager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

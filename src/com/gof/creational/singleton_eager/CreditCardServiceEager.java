@@ -1,7 +1,7 @@
 package com.gof.creational.singleton_eager;
 
 public final class CreditCardServiceEager {
-    private static CreditCardServiceEager instance = new CreditCardServiceEager();
+    private final static CreditCardServiceEager instance = new CreditCardServiceEager();
 
     private CreditCardServiceEager() {
     }
