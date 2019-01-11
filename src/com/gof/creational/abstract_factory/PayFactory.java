@@ -1,5 +1,6 @@
 package com.gof.creational.abstract_factory;
 
+import com.gof.creational.SiteType;
 import com.gof.creational.abstract_factory.pay_for_site_factory.CompanyOnePaySystemFactory;
 import com.gof.creational.abstract_factory.pay_for_site_factory.CompanyTwoPaySystemFactory;
 import com.gof.creational.abstract_factory.pay_product.CreditCardService;
@@ -12,17 +13,17 @@ public abstract class PayFactory {
     public abstract CreditCardService getCreditCardService();
     public abstract PayPalService getPayPalService();
 
-    public static PayFactory getFactory(final String site) {
+    public static PayFactory getFactory(final SiteType site) {
         PayFactory result = null;
 
         switch (site) {
-            case "CompanyOne":
+            case SITE1:
                 if (companyOnePayFactory == null) {
                     companyOnePayFactory = new CompanyOnePaySystemFactory();
                     result = companyOnePayFactory;
                 }
                 break;
-            case "CompanyTwo":
+            case SITE2:
                 if (companyTwoPayFactory == null) {
                     companyTwoPayFactory = new CompanyTwoPaySystemFactory();
                     result = companyTwoPayFactory;
