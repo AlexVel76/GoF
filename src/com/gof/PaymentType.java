@@ -1,5 +1,5 @@
 package com.gof;
 
 public enum PaymentType {
-    PAYPAL, CREDITCARD, UNDEFINED
+    PAYPAL, CREDITCARD, UNDEFINED, ALIPAY;
 }
