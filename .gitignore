@@ -1,4 +1,4 @@
-.git\
-.idea\
-target\
-out\
+**/.git/
+**/.idea/
+**/target/
+**/out/
