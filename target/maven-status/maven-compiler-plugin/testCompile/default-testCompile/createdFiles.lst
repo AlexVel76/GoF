@@ -1,0 +1,6 @@
+com\gof\creational\factory_method_polymorphic_1\FactoryMethodPolymorphicTest.class
+com\gof\creational\factory_method_parameter\FactoryMethodParameterTest.class
+com\gof\structural\bridge\AbstractSiteServiceTest.class
+com\gof\structural\bridge\BridgeTest.class
+com\gof\creational\builder\BuilderTest.class
+com\gof\creational\prototype\PrototypeTest.class
