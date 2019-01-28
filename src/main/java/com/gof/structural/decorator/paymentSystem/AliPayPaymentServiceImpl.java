@@ -11,7 +11,7 @@ public class AliPayPaymentServiceImpl extends SiteServiceDecor {
 
     @Override
     public void activate() {
+        System.out.print("- Add Aliexpress payment system");
         super.activate();
-        System.out.println("- Add Aliexpress payment system");
     }
 }

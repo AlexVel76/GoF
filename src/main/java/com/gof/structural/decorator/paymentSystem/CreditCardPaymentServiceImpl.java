@@ -11,7 +11,7 @@ public class CreditCardPaymentServiceImpl extends SiteServiceDecor {
 
     @Override
     public void activate() {
+        System.out.print("- Add CreditCard payment system");
         super.activate();
-        System.out.println("- Add CreditCard payment system");
     }
 }

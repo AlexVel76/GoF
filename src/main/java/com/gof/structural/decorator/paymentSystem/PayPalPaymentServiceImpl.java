@@ -11,7 +11,7 @@ public class PayPalPaymentServiceImpl extends SiteServiceDecor {
 
     @Override
     public void activate() {
+        System.out.print(" - Add PayPal payment system");
         super.activate();
-        System.out.println(" - Add PayPal payment system");
     }
 }

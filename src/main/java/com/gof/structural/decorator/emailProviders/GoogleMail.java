@@ -11,7 +11,7 @@ public class GoogleMail extends SiteServiceDecor {
 
     @Override
     public void activate() {
-        super.activate();
         System.out.print("- Add GoogleMail Provider");
+        super.activate();
     }
 }

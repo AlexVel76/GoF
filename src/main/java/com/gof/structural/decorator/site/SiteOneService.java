@@ -7,6 +7,6 @@ import com.gof.structural.decorator.Service;
 public class SiteOneService implements Service {
     @Override
     public void activate() {
-        System.out.println("\r\n Site One has been activated");
+        System.out.println("- Site One has been activated\r\n");
     }
 }

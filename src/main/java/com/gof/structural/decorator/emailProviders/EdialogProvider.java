@@ -11,7 +11,7 @@ public class EdialogProvider extends SiteServiceDecor {
 
     @Override
     public void activate() {
-        super.activate();
         System.out.print("- Add Edialog Provider");
+        super.activate();
     }
 }

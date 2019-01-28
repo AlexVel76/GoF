@@ -7,6 +7,7 @@ import com.gof.structural.decorator.emailProviders.GoogleMail;
 import com.gof.structural.decorator.paymentSystem.AliPayPaymentServiceImpl;
 import com.gof.structural.decorator.paymentSystem.PayPalPaymentServiceImpl;
 import com.gof.structural.decorator.site.SiteOneService;
+import com.gof.structural.decorator.site.SiteTwoService;
 
 class DecoratorTest {
 
@@ -17,12 +18,12 @@ class DecoratorTest {
                         new PayPalPaymentServiceImpl(
                                 new SiteOneService())));
 
-        Service siteOneService2 = new GoogleMail(
+        Service siteTwoService2 = new GoogleMail(
                 new EdialogProvider(
                         new AliPayPaymentServiceImpl(
-                                new SiteOneService())));
+                                new SiteTwoService())));
 
         siteOneService.activate();
-        siteOneService2.activate();
+        siteTwoService2.activate();
     }
 }
