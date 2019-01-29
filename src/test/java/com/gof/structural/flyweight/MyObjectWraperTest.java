@@ -2,6 +2,8 @@ package com.gof.structural.flyweight;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.EventListener;
+
 import javax.annotation.PostConstruct;
 
 import org.junit.jupiter.api.BeforeAll;
@@ -32,6 +34,7 @@ class MyObjectWraperTest {
         assertNotNull(newValue);
         assertEquals(newValue.getName(), NEWVALUE);
         assertEquals(MyObjectWraper.pool.size(), 6);
+
     }
 
 }
