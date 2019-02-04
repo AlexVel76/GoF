@@ -1,6 +1,9 @@
 package com.gof.behavioral.chainOfResponsibility;
 
 public class FilterNumeric extends AbstractFilter {
+
+    public static final String FILTER_NUMERIC_IS_APPLIED = " Filter Numeric is applied";
+
     public FilterNumeric() {
     }
 
@@ -10,6 +13,6 @@ public class FilterNumeric extends AbstractFilter {
 
     @Override
     public String applyFilter(String data) {
-        return data + " Filter Numeric is applied";
+        return data + FILTER_NUMERIC_IS_APPLIED;
     }
 }
