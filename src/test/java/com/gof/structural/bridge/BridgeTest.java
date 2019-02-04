@@ -14,7 +14,7 @@ public class BridgeTest {
 
     //Bridge joins functionality of independent interfaces, while decorator builds complex object due to the same
     // interface that
-    // parts implements. Bridge dynamically allow to a bridge class call methods from different interface, while
+    // parts implements. Bridge dynamically allows the bridge class to call methods from different interface, while
     // Decorator call methods from the same interface.
     @Test
     void bridgeTest() {
