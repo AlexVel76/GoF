@@ -9,4 +9,9 @@ public class PayPalPaymentServiceImpl implements PaymentService {
         System.out.println("pay order by PayPal");
         return PaymentType.PAYPAL;
     }
+
+    @Override
+    public void cancel(AbstractOrder order) {
+        System.out.println("Cancel pay order by PayPal");
+    }
 }

@@ -9,4 +9,9 @@ public class CreditCardPaymentServiceImpl implements PaymentService {
         System.out.println("pay order by Credit Card");
         return PaymentType.CREDITCARD;
     }
+
+    @Override
+    public void cancel(AbstractOrder order) {
+        System.out.println("Cancel pay order by Credit Card");
+    }
 }

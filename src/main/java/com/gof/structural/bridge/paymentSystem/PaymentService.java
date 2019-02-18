@@ -5,4 +5,6 @@ import com.gof.creational.common.AbstractOrder;
 
 public interface PaymentService {
     PaymentType pay(AbstractOrder abstractOrder);
+
+    void cancel(AbstractOrder order);
 }

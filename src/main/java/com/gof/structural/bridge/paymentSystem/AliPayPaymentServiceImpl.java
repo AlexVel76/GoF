@@ -9,4 +9,9 @@ public class AliPayPaymentServiceImpl implements PaymentService {
         System.out.println("pay order by Aliexpress");
         return PaymentType.ALIPAY;
     }
+
+    @Override
+    public void cancel(AbstractOrder order) {
+        System.out.println("Cancel pay order by Aliexpress");
+    }
 }
