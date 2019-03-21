@@ -1,5 +1,11 @@
 package com.gof.behavioral.mediator;
 
 public interface Mediator {
-    public String send(String message, Job sender, Job reciever);
+
+
+    void informOfIncreasing(int sum);
+
+    void payment(int amount);
+
+    void pay(int amount);
 }

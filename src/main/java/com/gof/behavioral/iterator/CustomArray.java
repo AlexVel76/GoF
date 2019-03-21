@@ -14,6 +14,10 @@ public class CustomArray implements CustomCollection {
         leng=0;
     }
 
+    public void pause(long i) throws InterruptedException {
+        Thread.sleep(1000*2);
+    }
+
     @Override
     public CustomIterator getIterator() {
         return new CustomArrayIterator(arr, leng);

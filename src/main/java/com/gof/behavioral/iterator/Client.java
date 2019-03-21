@@ -2,16 +2,43 @@ package com.gof.behavioral.iterator;
 
 public class Client {
     public static void main(String[] args) {
-        CustomCollection array = new CustomArray(3);
+        CustomArray array = new CustomArray(3);
         array.insert(7);
         array.insert(4);
         array.insert(8);
 
 
-        CustomIterator iter = array.getIterator();
-        while (iter.hasNext())
-        {
-            System.out.print(iter.next() + " ");
+        try {
+            array.pause(0);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+
+
+        CustomIterator iter = array.getIterator();
+        long i=0l;
+        while (true)
+        {
+            try {
+                Thread.sleep(1000*10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            i++;
+            try {
+                array.pause(i);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+
     }
+
+
+
+
+
 }

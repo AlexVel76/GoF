@@ -11,19 +11,6 @@ class ClientTest {
 
     @Test
     void test() {
-        Mediator mediator = new MediatorImpl();
 
-        Job job1 = new JobImpl(mediator);
-        Job job2 = new JobImpl(mediator);
-
-        String result1 = mediator.send(HELLO, job1, job2);
-        String result2 = mediator.send(HI, job2, job1);
-
-        assertEquals(result1, compoundMess(job1, HELLO));
-        assertEquals(result2, compoundMess(job2, HI));
-    }
-
-    private String compoundMess(Job job1, String mess) {
-        return "Message from:" + job1.toString() + " Mess: " + mess;
     }
 }
