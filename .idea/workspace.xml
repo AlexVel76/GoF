@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9d45774-706e-4d71-ae62-b4e4867fb88d" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/iterator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/iterator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/iterator/CustomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/iterator/CustomArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Job.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/JobImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Mediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/MediatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/MediatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gof/behavioral/mediator/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gof/behavioral/mediator/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/AddItemTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CashierDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CustomerDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Topic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,11 +69,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Client.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CustomerDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CashierDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CashierDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Topic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Topic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddItemTopic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/AddItemTopic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -156,30 +232,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Shop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -202,13 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/command/place_order_commands/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/command/place_order_commands/ChargeMoneyUndoCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/command/place_order_commands/ChargeMoneyCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/command/pay_commands/ChargeMoneyCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/command/pay_commands/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/command/pay_commands/ChargeMoneyUndoCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/structural/bridge/paymentSystem/PaymentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/structural/bridge/paymentSystem/AliPayPaymentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/structural/bridge/paymentSystem/CreditCardPaymentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/structural/bridge/paymentSystem/PayPalPaymentServiceImpl.java" />
@@ -248,11 +293,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/OrderEntiry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/OrderSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Inventory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Bank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Mediator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/MediatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CustomerDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CashierDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Topic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/AddItemTopic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Client.java" />
       </list>
     </option>
   </component>
@@ -346,18 +398,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gof" type="462c0819:PsiDirectoryNode" />
               <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="mediator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gof" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="memento_internal_class" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gof" type="b2602c69:ProjectViewProjectNode" />
@@ -421,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gof.behavioral.memento_internal_class.Client" />
       <module name="gof" />
@@ -444,6 +485,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gof.behavioral.observer.Client" />
+      <module name="gof" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gof.behavioral.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gof.behavioral.mediator.Client" />
       <module name="gof" />
@@ -457,29 +509,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ClientTest.iteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gof" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gof.behavioral.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gof.behavioral.iterator" />
-      <option name="MAIN_CLASS_NAME" value="com.gof.behavioral.iterator.ClientTest" />
-      <option name="METHOD_NAME" value="iteratorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ClientTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gof" />
@@ -544,18 +573,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Client (2)" />
-      <item itemvalue="JUnit.ClientTest.iteratorTest" />
       <item itemvalue="Application.Client" />
       <item itemvalue="JUnit.ClientTest.test" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="JUnit.ClientTest.test" />
-        <item itemvalue="JUnit.ClientTest.iteratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -627,11 +656,12 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.24891774" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.42316017" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.24891774" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3008658" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32900432" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23294243" />
@@ -644,7 +674,6 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.33982685" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32900432" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -747,55 +776,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gof/behavioral/command/CommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8908">
-          <caret line="566" column="32" selection-start-line="566" selection-start-column="32" selection-end-line="566" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/structural/flyweight/MyObjectWraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/structural/flyweight/MyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/structural/composite/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/structural/composite/Folder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1051,26 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/iterator/CustomArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1096,10 +1056,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/mediator/Client.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CustomerDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/CashierDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/AddItemTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/behavioral/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
